@@ -80,3 +80,14 @@
     width: 70%;
     margin: 0px auto;
 }
+
+
+
+@media screen and  (max-width:767px) {
+    .hire-search-bar, .input-fields{
+        flex-direction: column;
+    }
+    .hire-search-bar{
+        height: 40vh;
+    }
+}

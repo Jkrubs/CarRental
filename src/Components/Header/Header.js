@@ -14,6 +14,7 @@ export const Header = () => {
         <div className="logo">
             <Link to={'/'}><img src={assets.logo} alt="" /></Link>
         </div>
+        <div className="mobile-menu">
         <div className="desktop-menu">
            <ul>
             <Link to={'/'}><li>Home</li></Link>
@@ -33,6 +34,8 @@ export const Header = () => {
                 <button onClick={handleIsopen}>Login</button>
                
         </div>
+    </div>
+    <div className='menu'><img src={assets.menu_icon} alt="" /></div>
     </div>
     <Login open={isopen} setIsopen={setIsopen} />
     </div>
