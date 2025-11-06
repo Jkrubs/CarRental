@@ -93,6 +93,7 @@
     }
     .hire-search-form{
         flex-direction: column;
+        align-items: start;
     }
 
     .hero h1{

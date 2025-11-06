@@ -118,6 +118,7 @@
     .mobile-menu{
         flex-direction: column;
         position: absolute;
+        justify-content: start;
         height: 88vh;
         width: 50%;
         box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);

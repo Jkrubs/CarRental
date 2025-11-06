@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { Login } from '../Login/Login'
 export const Header = () => {
     const[isopen, setIsopen]=useState(false)
-    const[ismobilemenu, setIsmobilemenu]=useState(true)
+    const[ismobilemenu, setIsmobilemenu]=useState(false)
 
     const handleIsopen=()=>{
         setIsopen(true)
