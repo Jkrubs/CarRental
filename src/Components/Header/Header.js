@@ -5,8 +5,14 @@ import { Link } from 'react-router-dom'
 import { Login } from '../Login/Login'
 export const Header = () => {
     const[isopen, setIsopen]=useState(false)
+    const[ismobilemenu, setIsmobilemenu]=useState(true)
+
     const handleIsopen=()=>{
         setIsopen(true)
+    }
+
+    const handleMenu=()=>{
+        setIsmobilemenu(prev=>!prev)
     }
   return (
     <div className="header-container">
@@ -14,7 +20,7 @@ export const Header = () => {
         <div className="logo">
             <Link to={'/'}><img src={assets.logo} alt="" /></Link>
         </div>
-        <div className="mobile-menu">
+        <div className={ismobilemenu?'mobile-menu':'closed-menu'}>
         <div className="desktop-menu">
            <ul>
             <Link to={'/'}><li>Home</li></Link>
@@ -35,7 +41,14 @@ export const Header = () => {
                
         </div>
     </div>
-    <div className='menu'><img src={assets.menu_icon} alt="" /></div>
+    <div className='menu'>
+        {ismobilemenu?
+        <img onClick={handleMenu} src={assets.menu_icon} alt=""/>
+        :
+        <img onClick={handleMenu}src={assets.close_icon} alt=""/>
+        }
+        
+    </div>
     </div>
     <Login open={isopen} setIsopen={setIsopen} />
     </div>

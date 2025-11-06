@@ -50,12 +50,14 @@
     .news-container p{
         text-align: center;
         font-weight: 16px;
+        height: fit-content;
+        margin: 30px auto;
     }
     .title{
         font-size: 36px;
     }
     .subscribe{
-        width: 70%;
+        width: 90%;
     }
     
 }
