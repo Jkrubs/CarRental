@@ -140,3 +140,11 @@ justify-content: center;
 .explore-btn button:hover{
     scale: 1.03;
 }
+
+@media screen and (max-width:767px) {
+    .vehicle{
+        width: 90%;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+}

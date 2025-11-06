@@ -55,3 +55,21 @@
 .image-container img{
     width: 70%;
 }
+
+
+@media screen and (max-width:767px) {
+   .banner{
+    flex-direction: column;
+   } 
+
+   .banner-text, .image-container{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+   }
+   .image-container{
+    align-items: center;
+    justify-content: center;
+   }
+}

@@ -1,6 +1,6 @@
 .footer-container{
 width: 90%;
-    margin:0px auto 10px;
+margin:0px auto 10px;
 }
 
 
@@ -76,4 +76,18 @@ width: 90%;
 
 .made-with-love span{
     color: red;
+}
+
+
+@media screen and (max-width:767px) {
+    .footer{
+       flex-direction: column; 
+    }
+
+    .bottom-footer{
+        flex-direction: column;
+    }
+    .footer-item-container{
+        width: 80%;
+    }
 }
