@@ -89,5 +89,13 @@
     }
     .hire-search-bar{
         height: 40vh;
+        width: 90%;
+    }
+    .hire-search-form{
+        flex-direction: column;
+    }
+
+    .hero h1{
+        font-size: 40px;
     }
 }

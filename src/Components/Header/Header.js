@@ -43,9 +43,9 @@ export const Header = () => {
     </div>
     <div className='menu'>
         {ismobilemenu?
-        <img onClick={handleMenu} src={assets.menu_icon} alt=""/>
+        <img onClick={handleMenu} src={assets.close_icon} alt=""/>
         :
-        <img onClick={handleMenu}src={assets.close_icon} alt=""/>
+        <img onClick={handleMenu}src={assets.menu_icon} alt=""/>
         }
         
     </div>
