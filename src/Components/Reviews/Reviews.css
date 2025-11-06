@@ -61,8 +61,16 @@
 
 
 @media screen and (max-width:767px) {
+    .container{
+        height: fit-content;
+    }
+
+    
     .review{
-        width: 80%;
+        width: 90%;
         margin: 0px auto 20px;
+    }
+    .container p{
+        margin-bottom: 20px;
     }
 }

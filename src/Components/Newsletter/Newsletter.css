@@ -45,3 +45,17 @@
     border-radius: 0px 5px 5px 0px;
     color: white;
 }
+
+@media screen and (max-width:767px) {
+    .news-container p{
+        text-align: center;
+        font-weight: 16px;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .subscribe{
+        width: 70%;
+    }
+    
+}

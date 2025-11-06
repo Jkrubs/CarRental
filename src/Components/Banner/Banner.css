@@ -65,11 +65,13 @@
    .banner-text, .image-container{
     width: 90%;
     margin: auto;
-    align-items: center;
-    text-align: center;
    }
    .image-container{
     align-items: center;
     justify-content: center;
+   }
+
+   .image-container img{
+    width: 90%;
    }
 }
