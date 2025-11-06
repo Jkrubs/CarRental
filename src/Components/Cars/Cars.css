@@ -1,0 +1,64 @@
+.cars-container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.filter-cars{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filter-cars p{
+    font-size: 16px;
+    color: #757579;
+}
+
+.cars-search-bar{
+    width: 55%;
+    margin: 0px auto; 
+    background: white;
+    border-radius: 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+
+.cars-search-form{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width:80%;
+}
+
+.search img{
+    width: 20px;
+}
+
+.search input{
+    width: 90%;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.filter-result p{
+    font-size: 16px;
+    color: #757579;
+    margin-bottom: 20px;
+}

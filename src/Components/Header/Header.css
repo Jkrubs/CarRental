@@ -1,0 +1,98 @@
+.header-container{
+    width: 100%;
+    background: #F1F5F9;
+    height: 12vh;
+    border-bottom: 1px solid rgb(212, 209, 209);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desktop-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.desktop-menu ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.desktop-menu ul li{
+    list-style:none;
+    cursor: pointer;
+    color: #4A5565;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.desktop-menu ul a{
+    text-decoration: none;
+}
+
+.search-bar{
+    width: 250px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.search-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.search-form input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.search-form button{
+    border:none;
+    outline: none;
+    background: transparent;
+}
+
+.header-btn button{
+    width: 100px;
+    height: 40px;
+    background: #2563EB;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pop-up{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    position: absolute;
+    top: 0;
+}

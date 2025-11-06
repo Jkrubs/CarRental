@@ -1,0 +1,142 @@
+.features-cars{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.tag-line{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vehicles, .reviews{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vehicle, .review{
+    width: 30%;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+    
+}
+
+.car-image{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.car-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.vehicle:hover{
+    scale: 1.02;
+}
+
+.availability-badge{
+    width: 150px;
+    background: #1F58D8;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top:15px;
+    left: 5px;
+}
+.price{
+    width: 150px;
+    text-align: center;
+    background: #000;
+    border-radius: 20px;
+    padding: 5px 5px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 160px;
+    right: 10px;
+}
+
+.price span{
+    font-weight: normal;
+    color: #757579;
+}
+
+.vehicle-data{
+    padding:0px 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+
+.vehicle-name{
+    font-weight: bold;
+}
+
+.vehicle-specs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.spec{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-bottom: 10px;
+}
+
+
+
+.spec img{
+    width: 20px;
+}
+
+
+.explore-btn{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.explore-btn button{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    gap:5px;
+     outline: none ;
+     border: 1px solid #757579;
+     border-radius: 5px;
+     padding: 10px;
+     background: transparent;
+     cursor: pointer;
+}
+
+.explore-btn button:hover{
+    scale: 1.03;
+}

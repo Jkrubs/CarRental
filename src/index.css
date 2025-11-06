@@ -1,0 +1,15 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+body{
+  background: #F1F5F9;
+}
+
+.home{
+  width: 90%;
+  margin: auto;
+}

@@ -1,0 +1,58 @@
+.login{
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.form-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #757579;
+    text-align: center;
+
+}
+
+.form-title span{
+    color: #1F58D8;
+}
+
+.login-form button{
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    background: #1F58D8;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px ;
+    font-weight: 500;
+}
+
+.switch-link p span{
+    color: #1F58D8;
+    cursor: pointer;
+}
+
+.user-type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1F58D8;
+}
+
+.user-type-field{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

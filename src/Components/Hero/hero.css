@@ -1,0 +1,82 @@
+.hero-container{
+    width: 100%;
+    height: 88vh;
+    background: #F1F5F9;
+}
+
+.hero{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.hero h1{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.hire-search-bar{
+    width: 70%;
+    margin:50px auto;
+    height: 80px;
+    border-radius: 40px;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+.hire-search-form{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-fields{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.input-field input{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+#pick-up-date, #return-date{
+    color:#757579;
+}
+
+.hire-search-form button{
+    width: 100px;
+    height: 40px;
+    background: #1F58D8;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-car{
+    display: flex;
+    align-items: center;
+}
+
+.main-car img{
+    width: 70%;
+    margin: 0px auto;
+}

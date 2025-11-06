@@ -1,0 +1,168 @@
+.admin-dashboard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head-title{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.admin-dashboard p, .add-new-car p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #757579;
+}
+
+.dashboard-cards{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-card{
+    width: 23%;
+    height: 80px;
+    border: 1px solid #757579;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.dashboard-card p{
+    color: #757579;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.car-numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.car-count{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+
+.revenue{
+    width: 80%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.recent-bookings{
+    width: 59%;
+    border: 1px solid #757579;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.monthly-revenue{
+    width: 39%;
+    border: 1px solid #757579;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.monthly-revenue p, .recent-bookings p{
+    color: #757579;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.earning{
+    font-size: 30px;
+    line-height: 36px;
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.icon{
+    width:40px ;
+    height: 40px;
+    border-radius: 50%;
+    background: #9898f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-new-car{
+    width: 80%;
+
+}
+.add-new-form{
+    width: 100%;
+    color: #757579;
+}
+
+.brand-model, .details, .final-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add-input-field{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.add-input-field input, .details-input-field input, .location-input-field input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #757579;
+    border-radius: 5px;
+    padding: 5px;
+    background: transparent;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.details{
+    flex-wrap: wrap;
+}
+
+.details-input-field{
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.final-info{
+    flex-direction: column;
+    align-items: start;
+}
+
+.location-input-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+textarea{
+    padding: 10px;
+}
+
+.add-new-form button{
+    border: none;
+    outline: none;
+    background: #2563eb;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
