@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import { assets, dummyCarData } from '../../assets/assets'
 import { Vehicles } from '../Vehicles/Vehicles'
 import './Cars.css'
-import { Login } from '../Login/Login'
 export const Cars = () => {
     const [data, setData]=useState(dummyCarData)
     const [filter, setFilter]=useState('')

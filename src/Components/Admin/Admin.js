@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Admin.css'
 import { assets, ownerMenuLinks } from '../../assets/assets'
-import { Link} from 'react-router-dom'
 import { Dashboard } from '../Pages/Dashboard'
 import {Addcar} from '../Pages/Addcar'
 import{Managecars} from '../Pages/Managecars'

@@ -11,9 +11,9 @@ export const Login = ({open, setIsopen}) => {
   const handleSigin=()=>{
     setLoggedin(false)
   }
-  const closeLogin=()=>{
-    setIsopen(false)
-  }
+  // const closeLogin=()=>{
+  //   setIsopen(false)
+  // }
 
   const handleSubmit=()=>{
     navigate('/admin-dashboard')

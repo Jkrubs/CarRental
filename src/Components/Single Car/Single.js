@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import './Single.css'
 import { useParams } from 'react-router'
 import { assets, dummyCarData } from '../../assets/assets'
-import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.production'
 
 export const Single = () => {
