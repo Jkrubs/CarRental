@@ -166,3 +166,31 @@ textarea{
     border-radius: 5px;
     margin: 20px 0px;
 }
+
+@media screen and (max-width:767px) {
+    .dashboard-cards{
+        flex-wrap: wrap;
+       width: 99%;
+       
+    }
+
+    .dashboard-card{
+        width: 49%;
+    }
+
+    .revenue{
+        flex-direction: column;
+        width: 99%;
+        
+    }
+    .recent-bookings, .monthly-revenue{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .add-new-car{
+        width: 100%;
+    }
+    .add-new-form{
+        margin-top: 20px;
+    }
+}

@@ -53,3 +53,17 @@
     background: #9898f0;
     height: 40px;
 }
+
+@media screen and (max-width:767px) {
+   .sidebar{
+      width: 40%;
+   }
+
+   .content{
+      width: 60%;
+      margin-left: 5px;
+   }
+   .footer-container{
+      display: none;
+   }
+}

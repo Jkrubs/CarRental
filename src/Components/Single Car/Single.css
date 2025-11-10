@@ -193,3 +193,27 @@
     margin-bottom: 20px;
 }
 
+@media screen and (max-width:767px) {
+    .single{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .car-details{
+        width: 100%;
+    }
+    .book-car{
+        width: 100%;
+    }
+    .car-image-container{
+        height: 50vh;
+    }
+
+    .feature p{
+        text-align: center;
+    }
+    .book-car-card{
+        margin:0px;
+    }
+}
+
